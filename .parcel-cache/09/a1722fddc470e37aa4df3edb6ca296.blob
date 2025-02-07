@@ -1,0 +1,9 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Timeout_SEC = exports.RES_PER_PAGE = exports.API_URL = void 0;
+const API_URL = exports.API_URL = 'https://forkify-api.jonas.io/api/v2/recipes';
+const Timeout_SEC = exports.Timeout_SEC = 10;
+const RES_PER_PAGE = exports.RES_PER_PAGE = 10;
