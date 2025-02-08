@@ -3696,7 +3696,7 @@ class AddRecipeView extends _View.default {
     this._parentElement.addEventListener('submit', function (e) {
       e.preventDefault();
       const dataArr = [...new FormData(this)];
-      const data = Object.fromEntries(dataArr);
+      const data = Object.fr;
       handler(data);
     });
   }
