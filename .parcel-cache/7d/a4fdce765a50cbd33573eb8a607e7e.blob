@@ -1,0 +1,21 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _View = _interopRequireDefault(require("./View.js"));
+var _previewView = _interopRequireDefault(require("./previewView.js"));
+var _icons = _interopRequireDefault(require("url:../../img/icons.svg"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
+// Parcel 2
+
+class ResultsView extends _View.default {
+  _parentElement = document.querySelector('.results');
+  _errorMessage = 'No recipes found for your query! Please try again ;)';
+  _message = '';
+  _generateMarkup() {
+    return this._data.map(result => _previewView.default.render(result, false)).join('');
+  }
+}
+var _default = exports.default = new ResultsView();
