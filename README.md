@@ -49,16 +49,24 @@ Forkify is a web application that allows users to search for recipes, bookmark t
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/forkify.git
+   git clone https://github.com/AbhijeetPatil2005/forkify.git
    ```
 2. Navigate to the project folder:
    ```sh
    cd forkify
    ```
-3. Open `index.html` in your browser to run the application.
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the project locally:
+   ```sh
+   npm start
+   ```
 
 ## Contributing
 Feel free to contribute by submitting issues or feature requests. Fork the repository and submit a pull request with your improvements.
 
 ## License
 This project is licensed under the MIT License.
+
